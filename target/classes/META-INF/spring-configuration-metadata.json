@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.example.login.domain.Person",
+      "sourceType": "com.example.login.domain.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.example.login.domain.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.login.domain.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.login.domain.Person"
+    },
+    {
+      "name": "person.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.example.login.domain.Person"
+    }
+  ],
+  "hints": []
+}
